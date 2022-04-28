@@ -111,7 +111,7 @@ function Home(props) {
                   {d.text}
                 </Grid>
                 <Grid item xs={2}>
-                  <Button variant="text " onClick={()=>{editItem(d,i)}}>edit</Button>
+                  <Button variant="text" onClick={()=>{editItem(d,i)}}>edit</Button>
                 </Grid>
                 <Grid item xs={2}>
                   
